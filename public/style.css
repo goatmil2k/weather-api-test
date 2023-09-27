@@ -1,0 +1,69 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('nikolas-noonan-fQM8cbGY6iQ-unsplash.jpg');
+    background-size: cover;
+}
+
+main {
+    font-family: 'Source Code Pro', monospace;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 900;
+}
+.city {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+fieldset {
+    margin: auto;
+}
+
+p {
+    padding: 10px;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+#weather-container {
+    background-color: hsla(15, 4%, 63%, 0.774);
+    width: 80%;
+    font-size: 50px;
+    border-radius: 1rem;
+}
+
+.bottomDiv {
+    padding-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    #weather-container {
+      width: 50%;
+    }
+  }
+  
+ 
+  @media (min-width: 1200px) {
+    #weather-container {
+      width: 30%; 
+    }
+  }

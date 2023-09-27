@@ -1,0 +1,26 @@
+{
+  "name": "dinosaur-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goatmil2k/weather-api-test.git"
+  },
+  "author": "goatmil2k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goatmil2k/node-dinosaur-generator/issues"
+  },
+  "homepage": "https://github.com/goatmil2k/node-dinosaur-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
